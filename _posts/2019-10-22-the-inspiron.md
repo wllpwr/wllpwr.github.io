@@ -5,10 +5,6 @@ title:  "the inspiron"
 
 The Inspiron 3252 is a machine with below average specs for 2016. Boasting a Pentium N3700 clocked at 1.60 GHz, and 8 GB of RAM, it chugs along. The place where I work was going to throw it out, and because of its small size and low power consumption, I figured it’d make a great machine for projects. Low power consumption means less heat, and when your dorm AC doesn’t work right, it’s great.
 
-
-
-A 14″ ThinkPad for comparison
-
 Unfortunately, I still haven’t figured out what to do with it. As of now, it’s just an Ubuntu distro hopping PC. I don’t trust this Pentium computer on Windows. The only reason I actually use Windows anymore is for gaming and the occasional time I open Visual Studio.
 
 I went back and forth between Kubuntu, deepin, Steam OS and Mint. Today, I wanted to revisit Pop!_OS, as it’s what I ran on my laptop before I switched to Kubuntu.
