@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "moving to github pages"
+title:  "the inspiron"
 ---
 
 The Inspiron 3252 is a machine with below average specs for 2016. Boasting a Pentium N3700 clocked at 1.60 GHz, and 8 GB of RAM, it chugs along. The place where I work was going to throw it out, and because of its small size and low power consumption, I figured it’d make a great machine for projects. Low power consumption means less heat, and when your dorm AC doesn’t work right, it’s great.
