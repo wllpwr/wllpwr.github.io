@@ -9,13 +9,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Will Gesler
   image: '/assets/img/01.jpg'
-  job: Student at Champlain College
+  job: student at champlain college
   bio: 
 
 # Contact links
 contact:
   - name: Twitter
     link: https://twitter.com/wllpwr
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/williamgesler/
 
 
 # Build settings
