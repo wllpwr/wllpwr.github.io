@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "moving to github pages"
-date:   2020-90-20
 ---
 
 
