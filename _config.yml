@@ -9,27 +9,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Will Gesler
   image: '/assets/img/01.jpg'
-  job: Independent Product Designer
-  bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-  email: forexample@website.com
-
+  job: Student at Champlain College
+  bio: 
 
 # Contact links
 contact:
   - name: Twitter
-    link: https://twitter.com/
-  - name: Facebook
-    link: https://facebook.com/
-  - name: Instagram
-    link: https://instagram.com/
-
-
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
-
-
-# Google Analytics
-google-analytics: # add your identifier. For example UA-99631805-1.
+    link: https://twitter.com/wllpwr
 
 
 # Build settings
