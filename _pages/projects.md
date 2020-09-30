@@ -4,6 +4,8 @@ title: projects
 permalink: /projects/
 ---
 
-Here I'll link my personal projects, or projects from classes.
+## dotfiles
+# my Linux dotfiles 
 
+These are the config files I use on every Linux system I have.
 <https://wllpwr.github.io/dotfiles>
