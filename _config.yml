@@ -1,57 +1,92 @@
 # Site settings
-title: YAMT
-description: "Yet Another Minimal Theme"
-url:  "https://yamt.netlify.app" # Actual base url of the website
-baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
+title: Klise Theme # site title
+description: >- # site description
+  He's writing in Bahasa about web technology and experience as a journal 
+  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: Asia/Jakarta # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
 author:
-  name: "Alessio Franceschi"
-  email: "alessiofranceschi2@gmail.com"
-  url: "https://alessiofranceschi.me"
-permalink: /:year/:month/:day/:title:output_ext
+  name: Jekyll Klisé # author name
+  bio: >- # tell to the world
+    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
+    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+  username: username # general username
+  github: github_username # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: your-email@email.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
 
-#Plugins
-plugins: [jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-sitemap]
+# URL settings
+url: "https://klise.now.sh" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
 
-#Pagination
-paginate: 3
-paginate_path: "/page:num/"
+# Collection setting
+collections:
+  posts:
+    output: true
 
-#SEO
-twitter:
-  username: pandasekh
-  card: summary
-facebook:
-  app_id: # Facebook app ID for Facebook insights
-  publisher: # Facebook page URL or ID of the publishing entity
-  admins: # Facebook user ID for domain insights linked to a personal account
-logo: /assets/img/logo.jpg
-social:
-  links: #List your social links here
-    - https://twitter.com/PandaSekh
-    - https://www.github.com/pandasekh
-    - https://www.linkedin.com/in/alessio-franceschi/
-webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
-lang: en_US
-
-#Highlighter
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  input:          GFM
   syntax_highlighter: rouge
 
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
 
-#Sass
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
 sass:
   style: compressed
-  sourcemap: never
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
