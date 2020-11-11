@@ -1,22 +1,31 @@
 ---
-layout: default
+layout: base
 ---
 
-<div class="container">
-  <!-- begin page -->
-  <article class="page">
+{% include header.html type="page" %}
 
-    <div class="page__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="500">
-      <h1 class="page__title">{{ page.title | escape }}</h1>
-      {% if page.image %}
-      <div class="page-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
       {% endif %}
-    </div>
 
-    <div class="page__content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
-    {{ content }}
-    </div>
+      {{ content }}
 
-  </article>
-  <!-- end page -->
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% include comments.html %}
+    </div>
+  </div>
 </div>

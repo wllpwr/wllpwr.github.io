@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
-gem "bundler"
-gem "jekyll"
-gem "jekyll-sitemap"
-gem 'jekyll-tagging'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gemspec
+
