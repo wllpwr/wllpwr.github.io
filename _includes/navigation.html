@@ -1,17 +1,15 @@
-{% if site.data.navigation %}
-  <div class="navigation-wrapper">
-    <a href="#menu-toggle" id="menu-toggle">{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
-    <nav id="primary-nav" class="site-nav animated drop">
-      <ul>
-        {%- for link in site.data.navigation -%}
-          {%- if link.url contains '://' -%}
-            {%- assign url = link.url -%}
-          {%- else -%}
-            {%- assign url = link.url | relative_url -%}
-          {%- endif -%}
-          <li><a href="{{ url }}">{{ link.title }}</a></li>
-        {%- endfor -%}
-      </ul>
-    </nav>
-  </div><!-- /.navigation-wrapper -->
-{% endif %}
+{% assign default_paths = site.pages | map: "path" %}
+{% assign page_paths = site.header_pages | default: default_paths %}
+
+{% for path in page_paths %}
+    
+    {% assign item = site.pages | where: "path", path | first %}
+    
+    {% if item.title and page.title == item.title %}
+        <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% elsif item.title %}
+        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endif %}
+
+    
+{% endfor %}

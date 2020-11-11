@@ -2,40 +2,66 @@
 layout: default
 ---
 
-<main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    {% include page-image.html %}
-    <div class="page-wrapper">
-      <header class="page-header">
-        {% assign title = page.title | markdownify | strip_html %}
-        {% if page.link %}
-          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
-        {% else %}
-          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
-        {% endif %}
-      </header>
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
 
-      <div class="page-sidebar">
-        {% include page-author.html %}
-        {% include page-categories.html %}
-        {% include page-tags.html %}
-      </div>
+<div class="post-header mb2">
+  <h1>{{ page.title }}</h1>
+  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+  {% if page.update_date %}
+    <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date: site.date_format }}</span><br>
+  {% endif %}
+  <span class="post-meta small">
+  {% if page.minutes %}
+    {{ page.minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+  {% else %}
+    {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+  {% endif %}
+  </span>
+</div>
 
-      <div class="page-content">
-        <div class="e-content">
-          {{ content }}
-        </div>
+<article class="post-content">
+  {{ content }}
+</article>
 
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
+{% if site.show_sharing_icons %}
+  {% include share_buttons.html %}
+{% endif %}
 
-        {% if site.disqus.shortname %}
-          {% include disqus-comments.html %}
-        {% endif %}
+{% if site.show_post_footers %}
+  {% include post_footer.html %}
+{% endif %}
 
-        {% include page-pagination.html %}
-      </div>
+{% if site.disqus_shortname %}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title      = {{ page.title | jsonify }};
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+{% if site.facebook_comments %}
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
+{% endif %}
+
+{% if site.show_related_posts %}
+  <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
+  {% for post in site.related_posts %}
+    <div class="post ml2">
+      <a href="{{ post.url | relative_url }}" class="post-link">
+        <h4 class="post-title">{{ post.title }}</h4>
+        <p class="post-summary">{{ post.summary }}</p>
+      </a>
     </div>
-  </article>
-</main>
+  {% endfor %}
+{% endif %}
