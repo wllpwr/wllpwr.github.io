@@ -97,7 +97,7 @@ body[data-theme="dark"] {
     }
 
     &:focus {
-      outline-color: rgba(255, 82, 119, 0.6);
+      outline: none;
     }
   }
 
@@ -122,11 +122,13 @@ body[data-theme="dark"] {
 
   // Navbar
   .navbar {
-    border-color: $dark-light;
+    border-color: $dark-black;
+    background-color: #121212;
     .menu {
       a#mode {
         .mode-sunny {
           display: block;
+
         }
         .mode-moon {
           display: none;
