@@ -1,6 +1,6 @@
 //Colors
-$base: black;
-$light-grey: black;
+$base: #a2a2a2;
+$light-grey: #ebebeb;
 
 * {
   -webkit-box-sizing: border-box;
@@ -9,6 +9,7 @@ $light-grey: black;
 }
 html{
   scroll-behavior: smooth;
+  background-color: #212121;
 }
 .container {
     margin-left: auto;
