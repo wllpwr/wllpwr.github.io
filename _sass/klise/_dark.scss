@@ -124,10 +124,12 @@ body[data-theme="dark"] {
   .navbar {
     border-color: $dark-black;
     background-color: #121212;
+    border-radius: 10px;
     .menu {
       a#mode {
         .mode-sunny {
           display: block;
+          
 
         }
         .mode-moon {
