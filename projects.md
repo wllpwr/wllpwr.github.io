@@ -1,8 +1,8 @@
 ---
-title: Projects
+title: projects
 permalink: /projects/
 layout: page
-excerpt: Collection of my projects
+excerpt: collection of my projects
 comments: false
 ---
 

@@ -402,7 +402,8 @@
   background-color: #276200;
 }
 .mailicon, .giticon, .linkedin{
-  border-radius: 10px
+  border-radius: 10px;
+  background-color: black;
 }
 .mailicon:hover{
   background-color: $mail-color;
