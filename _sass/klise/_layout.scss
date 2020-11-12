@@ -89,6 +89,7 @@
     &:active{
       opacity: 1;
       background-color: #599014;
+      filter: blur(0.75px)
     }
 
     &:not(:last-child) {
@@ -399,4 +400,29 @@
 }
 .link_button:active{
   background-color: #276200;
+}
+.mailicon, .giticon, .linkedin{
+  border-radius: 10px;
+  background-color: black;
+}
+.mailicon:hover{
+  background-color: $mail-color;
+}
+.giticon:hover{
+  background-color: $github-color;
+}
+.linkedin:hover{
+  background-color: $linkedin-color;
+}
+.mailicon:active{
+  background-color: $mail-color-pressed;
+  filter: blur(0.75px)
+}
+.giticon:active{
+  background-color: $github-color-pressed;
+  filter: blur(0.75px)
+}
+.linkedin:active{
+  background-color: $linkedin-color-pressed;
+  filter: blur(0.75px)
 }
