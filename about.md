@@ -11,7 +11,7 @@ Hi! I'm a computer science major studying at Champlain College in Vermont. I lov
 This site is a central spot for anything I write about or any of my other projects. 
 
 
-You can contact me through through the methods below:
+You can contact me through the methods below:
 
 
 - {{ site.author.email }}
