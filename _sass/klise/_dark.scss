@@ -31,11 +31,13 @@ body[data-theme="dark"] {
     a {
       color: $dark-text-link-blue;
 
-      &:hover,
-      &:active,
-      &:focus {
+      &:hover{
+        color: $dark-text-link-blue-hover;
+      }
+      &:active{
         color: $dark-text-link-blue-active;
       }
+      
     }
 
     h3 {
