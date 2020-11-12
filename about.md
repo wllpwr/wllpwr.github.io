@@ -14,5 +14,6 @@ This site is a central spot for anything I write about or any of my other projec
 You can contact me through the methods below:
 
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- [shoot me an email](mailto:willgesler@gmail.com)
+- [message me on GitHub](https://github.com/wllpwr/)
+- [message me on LinkedIn](https://www.linkedin.com/in/williamgesler)
