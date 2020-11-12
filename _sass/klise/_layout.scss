@@ -386,3 +386,17 @@
     background-color: rgba(128, 128, 128, 0.1);
   }
 }
+.link_button{
+  background-color: #8ac148;
+  text-decoration: none;
+  text-align: center;
+  color:black !important;
+  border-radius: 10px;
+  padding: 15px;
+}
+.link_button:hover{
+  background-color: #599014;
+}
+.link_button:active{
+  background-color: #276200;
+}
