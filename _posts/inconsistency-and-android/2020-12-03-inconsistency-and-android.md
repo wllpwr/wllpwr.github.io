@@ -20,7 +20,7 @@ Consider that Android 4 was released in 2013. You would think that this tablet w
 
 The Android community is fantastic, and there has been work to port LineageOS to the device. Currently, with rooting the Kindle, [this device can get up to Lineage 14.1, based on Android 7.1.2](https://forum.xda-developers.com/t/rom-05-jul-2020-lineageos-14-1.3517481/). There is more ongoing work to get these tablets running Lineage 16, based on Android 9. This, however, is not a feasible solution for less tech-savvy individuals. 
 
-An argument can be made for Amazon that they have their own FireOS with their own App Store, so they should be separated from the Android ecosystem.  But the fact of the matter is, these devices are still based on Android. I have doubts that even a single, recently released app on the Amazon Store supports Android 4, considering it is 7 major versions behind.
+An argument can be made for Amazon that they have their own FireOS with their own App Store, could be considered to be separated from the typical ecosystem.  But the fact of the matter is, these devices are still based on Android. I would imagine that there are several security vulnerabilities on Android 4 that are patched in Android 5 or 6.
 
 ## verizon
 I can bet that most don’t expect to see this one in the list. Yes, Verizon is contributing to this fragmentation as well, although perhaps not as directly as device manufacturers themselves are. On devices resold through Verizon themselves, they lock the bootloader on the devices. Apparently, many years ago [they were actually brought to court for doing this](https://www.extremetech.com/computing/120771-what-is-a-bootloader-and-why-does-verizon-want-them-locked).
