@@ -9,10 +9,14 @@ Samsung, Google, OnePlus, LG, Sony, I could go on forever. The number of Android
 This is possibly the most outstanding issue when it comes to Android inconsistency. To push the newest devices, manufacturers will choose to abandon major Android updates after only a couple of years on the devices. 
 
 ## samsung
-Samsung is arguably the most notorious when it comes to this. Their devices get around 2 years of major Android versions before they’re dropped. My Galaxy S8 that I bought in only 2017 is now left behind on Android 9. I have personal experience with their lackluster Android version support and can vouch for its fragmentation. Is two years really a satisfactory timespan for devices this expensive? Why are their flagship devices getting left behind? It’s clear that this is just done for marketing reasons, to push people to buy their latest devices.
+Samsung is arguably the most notorious when it comes to this. Their devices get around 2 years of major Android versions before they’re dropped. My Galaxy S8 that I bought in only 2017 is now left behind on Android 9. I have personal experience with their lackluster Android version support and can vouch for its fragmentation. 
+
+Is two years really a satisfactory timespan for devices this expensive? Why are their flagship devices getting left behind? It’s clear that this is just done for marketing reasons, to push people to buy their latest devices.
 
 ## amazon
-A lesser known, but perhaps more extreme example of companies failing to push major Android updates is Amazon. I was recently given an old Kindle Fire HDX 3rd gen, a tablet made in 2013. The specs aren’t impressive (besides that crisp 1080p screen). Consider that Android 4 was released in 2013. You would think that this tablet was upgraded to perhaps Android 6 or 7 as their final release. You would be wrong because this tablet has not gotten a single major Android upgrade. It will remain on Android 4 for the rest of its time. 
+A lesser known, but perhaps more extreme example of companies failing to push major Android updates is Amazon. I was recently given an old Kindle Fire HDX 3rd gen, a tablet made in 2013. The specs aren’t impressive (besides that crisp 1080p screen). 
+
+Consider that Android 4 was released in 2013. You would think that this tablet was upgraded to perhaps Android 6 or 7 as their final release. You would be wrong because this tablet has not gotten a single major Android upgrade. It will remain on Android 4 for the rest of its time. 
 
 The Android community is fantastic, and there has been work to port LineageOS to the device. Currently, with rooting the Kindle, [this device can get up to Lineage 14.1, based on Android 7.1.2](https://forum.xda-developers.com/t/rom-05-jul-2020-lineageos-14-1.3517481/). There is more ongoing work to get these tablets running Lineage 16, based on Android 9. This, however, is not a feasible solution for less tech-savvy individuals. 
 
