@@ -29,7 +29,8 @@ body[data-theme="dark"] {
   // Post
   .page-content {
     background-color: #212121;
-    padding: ;
+    padding: 15px;
+    border-radius: 10px;
     a {
       color: $dark-text-link-blue;
 
@@ -128,8 +129,6 @@ body[data-theme="dark"] {
   .navbar {
     border-color: $dark-black;
     background-color: #212121;
-    padding: 15px;
-    border-radius: 10px;
     .menu {
       a#mode {
         .mode-sunny {
