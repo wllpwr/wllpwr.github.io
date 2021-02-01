@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "chocolatey is a godsend"
+
+image: /chocolatey-is-a-godsend/image.png
 ---
 
-<img align="right" src="./image.png">
+<img align="right" src="{{ page.image }}">
 
 Oh man, [Chocolatey](https://chocolatey.org/) is fantastic.
 
