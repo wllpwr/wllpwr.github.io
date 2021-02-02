@@ -2,14 +2,14 @@
 layout: post
 title:  "the low-spec tablet experience"
 
-image: /low-spec-tablet-experience/nokeyboard.jpg
-image2: /low-spec-tablet-experience/android.jpg
+image: /_posts/low-spec-tablet-experience/nokeyboard.jpg
+image2: /_posts/low-spec-tablet-experience/android.jpg
 ---
 
-My ASUS Transformer T100TAF has some terrible specs: an Intel Z3735 clocking at around 1.50 GHz, just **2 GB** of onboard memory, and 32 GB of non-replaceable storage. While it’s a 64-bit processor, the bootloader is limited to just 32-bit, because of some weird things manufacturers did with early Bay Trail processors. All in all, this thing is… well.. *not good*.
+My ASUS Transformer T100TAF has some terrible specs: an Intel Z3735 clocking at around 1.50 GHz, just **2 GB** of onboard memory, and 32 GB of eMMC storage. While it’s a 64-bit processor, the bootloader is limited to just 32-bit, because of some weird things manufacturers did with early Bay Trail processors. All in all, this thing is… well.. *not good*.
 <img align="right" width="25%" height="25%" src="{{ page.image }}">
 
-The appeal to this device, however, is that it’s a detachable tablet. It pops right off the keyboard with a press of a button. The Windows tablet experience is very nice, with complete touch gesture support, and full system navigation is capable with touch alone.
+The appeal to this device, however, is that it’s a detachable tablet. It pops right off the keyboard with a press of a button. The Windows tablet experience is very nice, with complete touch gesture support, and full system navigation is possible with touch alone.
 
 The only problem here is that Windows 10 is horrible when it comes to resource management. At cold boot, I was looking at at least a gigabyte and half of memory used, as well as choppiness during something as simple as web browsing. The CPU couldn’t even run at it’s full capabilities because I was limited to 32-bit versions of Windows. Overall, the experience was pretty bad, so I did what I usually do: switch to Linux.
 
