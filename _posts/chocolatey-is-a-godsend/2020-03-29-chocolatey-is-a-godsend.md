@@ -3,7 +3,7 @@ layout: post
 title:  "chocolatey is a godsend"
 ---
 
-<img align="right" src="/assets/img/chocolatey-is-a-godsend/image.png">
+<img align="right" height="35%" width="35%" src="/assets/img/chocolatey-is-a-godsend/image.png">
 
 Oh man, [Chocolatey](https://chocolatey.org/) is fantastic.
 
