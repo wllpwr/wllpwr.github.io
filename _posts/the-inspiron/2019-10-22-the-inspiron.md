@@ -13,6 +13,8 @@ With other machines I had a clear focus for what I wanted to use them for. My Ra
 While I’ve been here up at college, this desktop has been used for many things. I brought it up here initially as a Steam OS minicomputer, because I knew I’d have reliable ethernet connections between the common rooms and my room. The Inspiron is not suited to play games at all, so I’d stream from my main PC.
 After I had gotten bored with it, it sat around under my desk for a while. Bringing the wires downstairs became a pain, and not many people seemed interested in the LAN party I was basically throwing in the common room.
 
+<center><img width="50%" height="50%" src="/assets/img/the-inspiron/inspiron.jpg" vspace="25"></center>
+
 Just recently, my motherboard on my main PC died. This was the computer’s time to shine, and it performed decently well while running the latest version of Linux Mint. I did a few homework assignments and coding on it with no issues.
 
 Having said that, YouTube exists, and this computer can barely handle 720p60, let alone 1080p60. It doesn’t matter what the operating system or workload is, the video just stutters as that poor Pentium tries to keep up.
