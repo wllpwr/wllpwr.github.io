@@ -3,11 +3,13 @@ layout: post
 title:  "chocolatey is a godsend"
 ---
 
-<img align="right" height="35%" width="35%" src="/assets/img/chocolatey-is-a-godsend/image.png">
+
 
 Oh man, [Chocolatey](https://chocolatey.org/) is fantastic.
 
 Every other operating system has some sort of package manager. Linux has apt, yum, pacman, and others. Even macOS has brew. What does Windows have? Nothing. You have to painstakingly manually update every app that doesn’t support auto-updates. So, where does Chocolatey come in?
+
+<img align="right" height="35%" width="35%" src="/assets/img/chocolatey-is-a-godsend/image.png">
 
 They advertise themselves as the missing package manager for Windows. And wow, do they deliver. The fantastic community behind Chocolatey maintains over 7,000 packages, updating them as new versions come out. They don’t slack on getting these packages updated, so don’t worry about being behind on versions. I cannot stress how much easier Chocolatey has made updating programs.
 
