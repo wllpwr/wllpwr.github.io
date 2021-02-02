@@ -20,4 +20,3 @@ Just recently, my motherboard on my main PC died. This was the computer’s time
 Having said that, YouTube exists, and this computer can barely handle 720p60, let alone 1080p60. It doesn’t matter what the operating system or workload is, the video just stutters as that poor Pentium tries to keep up.
 Because I have a nice, big 144Hz monitor now, I wanted to use it. It turns out that it’s just much easier to hook my laptop up to my monitors instead. Now, I can watch YouTube videos with no problems, and as a bonus, any work I do in classes easily carries over to the big screen. This completely negates the need for the desktop.
 The setup for my laptop is a pain though, and I’d much rather have a consistent desktop setup instead. When my new motherboard comes in, the Inspiron will probably be put back on the shelf. I’m hoping in the future it’ll see more use, because right now it’s just collecting dust.
-![](inspiron.jpg)

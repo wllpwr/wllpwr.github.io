@@ -9,6 +9,8 @@ Some more context is necessary. As I mentioned in my blog post, “the inspiron,
 
 This isn’t the first time the motherboard has broken in this computer. A few years ago I bought this computer off a co-worker who was upgrading. It had great specs, with an i7-4770k, 16 GB of RAM, and a sleek case to boot. I got it for a nice price of around $300. I took it home, put my GTX 1060 in, and the next thing I knew the motherboard broke. Same-day breakage, unbelievable. I found a replacement online for around $150, and it’s been fine until now.
 
+<center><img width="50%" height="50%" src="/assets/img/motherboard-replacements/motherboard.jpg"></center>
+
 Replacing the board now wouldn’t be so bad if I had a steady income. however, in college, those numbers in my bank account never go up. Thankfully, I got my new board plus the IO shield for a cheap $70, but I had to make some sacrifices to overclocking capabilities. It was either a simple replacement, or a complete overhaul of my system, which would’ve cost me $400ish for the build I would want.
 
 The new board came in the other day. The shipping was much faster than I thought it would be, as I was expecting it was a bit more of a pain than I thought it would be. I had to move standoffs around to compensate for the new board, which was a Micro ATX instead of full sized ATX. It took me much longer than I thought it would to get everything set up; I spent maybe 30 minutes alone installing the board, mostly because of difficulties getting the screws into place. I spent another 15 minutes getting all my wires back into place thanks to my triple monitor setup.
