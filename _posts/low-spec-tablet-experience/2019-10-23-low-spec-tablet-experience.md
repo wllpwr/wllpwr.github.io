@@ -4,6 +4,7 @@ title:  "the low-spec tablet experience"
 ---
 
 My ASUS Transformer T100TAF has some terrible specs: an Intel Z3735 clocking at around 1.50 GHz, just **2 GB** of onboard memory, and 32 GB of eMMC storage. While it’s a 64-bit processor, the bootloader is limited to just 32-bit, because of some weird things manufacturers did with early Bay Trail processors. All in all, this thing is… well.. *not good*.
+
 <img width="50%" height="50%" src="/assets/img/low-spec-tablet-experience/nokeyboard.jpg" vspace="25">
 
 The appeal to this device, however, is that it’s a detachable tablet. It pops right off the keyboard with a press of a button. The Windows tablet experience is very nice, with complete touch gesture support, and full system navigation is possible with touch alone.
