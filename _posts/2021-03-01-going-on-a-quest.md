@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "going on a quest (2)"
+title:  "going on a quest"
 ---
 
 Yeah, VR is kind of cool.
