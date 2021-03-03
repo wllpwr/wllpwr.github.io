@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "inconsistency and android"
+---
+
 Samsung, Google, OnePlus, LG, Sony, I could go on forever. The number of Android device distributors is a mile long. Unfortunately, this is contributing to one of Android’s longest-running problems: inconsistency.  Anyone who has followed the Android development scene for even a few months would likely know that this is a real problem.
 
 # os updates and fragmentation
