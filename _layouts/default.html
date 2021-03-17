@@ -5,6 +5,8 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {% include header.html %}
 
+<head> {% include analytics.html %} </head>
+
 <body data-theme="{{ site.mode }}" class="notransition">
 
   <script>
@@ -20,9 +22,9 @@ layout: compress
         localStorage.setItem("theme", data);
       }
     };
- 
+
     initTheme(localStorage.getItem("theme"));
-    
+
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
@@ -35,4 +37,5 @@ layout: compress
     {% include footer.html %}
   </div>
 </body>
+
 </html>
