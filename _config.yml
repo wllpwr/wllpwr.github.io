@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Will Gesler # author name
+  name: will gesler # author name
   bio: >- # tell to the world
     computer science student at Champlain College
   username: wllpwr # general username
