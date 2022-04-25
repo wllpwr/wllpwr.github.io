@@ -19,6 +19,17 @@
   -ms-user-select: none;
   -webkit-user-select: none;
 
+
+  .home {
+    float: left;
+    left: 8px;
+    top: 6px;
+    position: relative;
+    path {
+      stroke: $dark-white;
+      fill: none;
+    }
+  }
   a#mode {
     float: left;
     left: 8px;
