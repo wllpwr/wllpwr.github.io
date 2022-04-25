@@ -27,6 +27,7 @@
       .then(response => response.json())
       .then(commits => {
         var modified = commits[0]['commit']['committer']['date'].slice(0, 10);
+        console.log(modified);
         document.getElementById("modified").textContent = "modified " + modified;
     })
 </script>
