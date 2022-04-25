@@ -1,26 +1,33 @@
 <footer class="footer">
   <a class="footer_item" href="https://github.com/wllpwr/wllpwr.github.io">source</a>
-  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+  <span class="footer_item" id="modified"></span>
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
 
 {%- if page.google_analytics -%}
-  <script src="/assets/js/galite.js"></script>
-  <script>
-    var galite = galite || {};
-    galite.UA = "{{ site.google_analytics }}";
-  </script>
+<script src="/assets/js/galite.js"></script>
+<script>
+  var galite = galite || {};
+  galite.UA = "{{ site.google_analytics }}";
+</script>
 {%- endif -%}
 {%- if page.url == '/archive/' -%}
-  <script src="/assets/js/search.min.js"></script>
-  <script>
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('search-results'),
-      json: '/assets/search.json',
-    });
+<script src="/assets/js/search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '/assets/search.json',
+  });
 
-    
-  </script>
 
+</script>
+<script>
+  fetch("https://api.github.com/repos/wllpwr/wllpwr.github.io/commits")
+      .then(response => response.json())
+      .then(commits => {
+        var modified = commits[0]['commit']['committer']['date'].slice(0, 10);
+        document.getElementById("modified").textContent = "modified " + modified;
+    })
+</script>
 {%- endif -%}
