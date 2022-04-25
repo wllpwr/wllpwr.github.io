@@ -27,6 +27,8 @@
     position: relative;
     height: 24px;
     width: 24px;
+    border-radius: 10px;
+    padding: 5px;
     path {
       stroke: $dark-white;
       fill: $dark-white;
