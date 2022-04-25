@@ -1,9 +1,16 @@
 <footer class="footer">
-  <a class="footer_item" href="https://github.com/wllpwr/wllpwr.github.io">source</a>
+  <a class="footer_item" href="https://github.com/wllpwr/wllpwr.github.io">source -</a>
   <span class="footer_item" id="modified"></span>
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
-
+<script>
+  fetch("https://api.github.com/repos/wllpwr/wllpwr.github.io/commits")
+      .then(response => response.json())
+      .then(commits => {
+        var modified = commits[0]['commit']['committer']['date'].slice(0, 10);
+        document.getElementById("modified").textContent = "modified " + modified;
+    })
+</script>
 {%- if page.google_analytics -%}
 <script src="/assets/js/galite.js"></script>
 <script>
@@ -22,13 +29,5 @@
 
 
 </script>
-<script>
-  fetch("https://api.github.com/repos/wllpwr/wllpwr.github.io/commits")
-      .then(response => response.json())
-      .then(commits => {
-        var modified = commits[0]['commit']['committer']['date'].slice(0, 10);
-        console.log(modified);
-        document.getElementById("modified").textContent = "modified " + modified;
-    })
-</script>
+
 {%- endif -%}
