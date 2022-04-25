@@ -31,6 +31,16 @@
       stroke: $dark-white;
       fill: $dark-white;
     }
+
+    &:hover {
+      opacity: 1;
+      background-color: #8ac148;
+    }
+    &:active{
+      opacity: 1;
+      background-color: #599014;
+      filter: blur(0.75px)
+    }
   }
   a#mode {
     float: left;
