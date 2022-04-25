@@ -14,26 +14,18 @@ Now with 100% more zsh!
 
 ---
 
-## [Twister Spinner](https://github.com/wllpwr/TwisterSpinner)
+## [Pi 1602 Info Board](https://github.com/wllpwr/pi-lcd)
 
-Simple twister spinner Android app. Major WIP.
-
----
-
-## [nord-flute](https://github.com/wllpwr/nord-flute)
-
-Windows Terminal theme? What's that?
+Written in Python, utilizes a 1602 LCD display in order to display various information, such as temperature, free RAM, and info on my server.
 
 ---
 
 ## [TF2 Config](https://github.com/wllpwr/tfconfig)
 
-All my config files for Team Fortress 2.
+All my config files for Team Fortress 2 (needs to be updated).
 
 ---
 
-## [EvenLessGarbage](https://github.com/wllpwr/EvenLessGarbage)
+## [Dashboard](https://github.com/wllpwr/Dashboard)
 
-A John Conway Game of Life simulation -- now as an Android app.
-This app was completed for a project for my Android Development class.
-Ignore the name, it's a long story.
+A Dashboard app for Android. Combines native Kotlin with web languages to create a home for all kinds of widgets. College capstone project.
