@@ -22,18 +22,5 @@
 
     
   </script>
-  <script>
-    fetch(
-      "https://api.github.com/repos/wllpwr/wllpwr.github.io"
-    )
-      .then(response => {
-        response.json().then(json => {
-          console.log(json);
-        
-        });
-      })
-      .catch(error => {
-        console.log(error);
-      });
-  </script>
+
 {%- endif -%}
