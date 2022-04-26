@@ -41,6 +41,11 @@
       background-color: #599014;
       filter: blur(0.75px)
     }
+
+    @include media-query($on-mobile) {
+      left: 8px;
+      top: 6px;
+    }
   }
   a#mode {
     float: left;
