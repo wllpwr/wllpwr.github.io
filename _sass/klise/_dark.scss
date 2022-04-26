@@ -142,8 +142,9 @@ body[data-theme="dark"] {
         color: $dark-white;
       }
       @include media-query($on-mobile) {
-        background-color: $dark-black;
-        border-color: $dark-light;
+        background-color: $smoke;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
 
         .menu-icon {
           > svg {
