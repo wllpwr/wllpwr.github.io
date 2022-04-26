@@ -42,10 +42,7 @@
       filter: blur(0.75px)
     }
 
-    @include media-query($on-mobile) {
-      left: 8px;
-      top: 6px;
-    }
+    
   }
   a#mode {
     float: left;
@@ -153,6 +150,10 @@
     background-color: $white;
     border-bottom: 1px solid $light;
 
+    #home{
+      left: 8px;
+      top: 6px;
+    }
     a#mode {
       left: 10px;
       top: 12px;
